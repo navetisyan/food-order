@@ -1,3 +1,7 @@
-import "./styles/main.css";
+import "./css/main.css";
+import { renderRegisterPage } from "./js/views/register";
+import router from "./js/routing";
 
-console.log("Setup is successfully done!");
+//renderRegisterPage();
+
+//router.redirect("/menu");
